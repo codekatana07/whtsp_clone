@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    tools:context=".ChatScreen"
+    android:orientation="horizontal"
+    android:background="#15202b">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/k1"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Rishabh"
+            android:layout_marginTop="4dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="12dp"/>
+        <TextView
+            android:id="@+id/lastmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="dsa kaha taak kiya ?"
+            android:textSize="16sp"
+            android:textColor="@color/translucent"
+            android:layout_marginLeft="12dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="@color/translucent"
+        android:id="@+id/time"
+        android:text="4:30 pm"/>
+
+
+
+
+</LinearLayout>
