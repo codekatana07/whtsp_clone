@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         val recyclerView=findViewById<RecyclerView>(R.id.recycler)
         recyclerView.layoutManager= LinearLayoutManager(this, LinearLayoutManager.VERTICAL,true)
-        val Username = arrayOf("Radha","Rashi","Sakshi","Arpita","jhanwi","Astha","Divya","Anisha","Siya","khushi")
-        val Pfp = intArrayOf(R.drawable.css1,R.drawable.figma1,R.drawable.firebase1,R.drawable.js1,R.drawable.k1,R.drawable.reactjs1,R.drawable.github,R.drawable.html,R.drawable.mongodb,R.drawable.nodejs)
-        val Lstmess = arrayOf("call krr","sorry yrr","mujhse ni hoga","bhej rahi huin","hello","kuch bhi pgl","tumse na ek baat karni thi","sukriya sukriya","pata hai aaj kya huwa?","rakhi bandhwa lo")
-        val Lsttime = arrayOf("5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM")
+        val Username = arrayOf("Radha","Rashi","Sakshi","Arpita","jhanwi","Astha","Divya","Anisha","Siya","khushi","Radha","Rashi","Sakshi","Arpita","jhanwi","Astha","Divya","Anisha","Siya","khushi")
+        val Pfp = intArrayOf(R.drawable.css1,R.drawable.figma1,R.drawable.firebase1,R.drawable.js1,R.drawable.k1,R.drawable.reactjs1,R.drawable.github,R.drawable.html,R.drawable.mongodb,R.drawable.nodejs,R.drawable.css1,R.drawable.figma1,R.drawable.firebase1,R.drawable.js1,R.drawable.k1,R.drawable.reactjs1,R.drawable.github,R.drawable.html,R.drawable.mongodb,R.drawable.nodejs)
+        val Lstmess = arrayOf("call krr","sorry yrr","mujhse ni hoga","bhej rahi huin","hello","kuch bhi pgl","tumse na ek baat karni thi","sukriya sukriya","pata hai aaj kya huwa?","rakhi bandhwa lo","call krr","sorry yrr","mujhse ni hoga","bhej rahi huin","hello","kuch bhi pgl","tumse na ek baat karni thi","sukriya sukriya","pata hai aaj kya huwa?","rakhi bandhwa lo")
+        val Lsttime = arrayOf("5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM","5:30 AM","4:30 PM")
 
         UserArrayList=ArrayList()
 
